@@ -1,4 +1,12 @@
+
 import Header from "@/app/_components/Header";
+import styled from "styled-components";
+
+const LayoutContainer = styled.div`
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
+`;
 
 export default function Layout({
                                    children,
@@ -6,11 +14,11 @@ export default function Layout({
     children: React.ReactNode;
 }>) {
     return (
-        <div className={'min-vh-100'}>
+        <LayoutContainer>
             <Header/>
-            <div className={'py-3'}>
+            <div className={'inner-container'}>
                 {children}
             </div>
-        </div>
+        </LayoutContainer>
     );
 }

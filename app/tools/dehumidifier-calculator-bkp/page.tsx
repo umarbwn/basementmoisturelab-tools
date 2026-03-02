@@ -1,3 +1,4 @@
+/*
 // app/tools/dehumidifier-calculator/page.tsx
 'use client';
 
@@ -232,7 +233,7 @@ export default function DehumidifierCalculator() {
 
     return (
         <div className="bg-light min-vh-100">
-            {/* Hero Section */}
+            {/!* Hero Section *!/}
             <div className="bg-primary text-white py-5">
                 <Container>
                     <h1 className="display-4 fw-bold mb-3">
@@ -247,10 +248,10 @@ export default function DehumidifierCalculator() {
 
             <Container className="py-5">
                 <Row className="g-4">
-                    {/* Calculator Form - Left Column */}
+                    {/!* Calculator Form - Left Column *!/}
                     <Col lg={8}>
                         <Card className="shadow-sm border-0">
-                            {/* Working Progress Bar */}
+                            {/!* Working Progress Bar *!/}
                             <Card.Body className="pb-0">
                                 <div className="mb-4">
                                     <Row className="align-items-center mb-2">
@@ -268,7 +269,7 @@ export default function DehumidifierCalculator() {
                                         </Col>
                                     </Row>
 
-                                    {/* Progress Bar */}
+                                    {/!* Progress Bar *!/}
                                     <ProgressBar
                                         now={progressPercentage}
                                         variant="primary"
@@ -276,7 +277,7 @@ export default function DehumidifierCalculator() {
                                         style={{ height: '12px' }}
                                     />
 
-                                    {/* Step Indicators */}
+                                    {/!* Step Indicators *!/}
                                     <Row className="g-2 text-center mt-3">
                                         {[
                                             { name: 'Size', icon: '📐' },
@@ -304,7 +305,7 @@ export default function DehumidifierCalculator() {
                                         ))}
                                     </Row>
 
-                                    {/* Completion Message */}
+                                    {/!* Completion Message *!/}
                                     {completedCount === 6 && !showResults && (
                                         <Alert variant="success" className="mt-3">
                                             <small>✅ All steps completed! Click calculate to see your results.</small>
@@ -314,7 +315,7 @@ export default function DehumidifierCalculator() {
                             </Card.Body>
 
                             <Card.Body className="pt-0">
-                                {/* Step 1: Square Footage */}
+                                {/!* Step 1: Square Footage *!/}
                                 <div className="mb-4 pb-3 border-bottom">
                                     <Row className="align-items-center mb-3">
                                         <Col>
@@ -394,7 +395,7 @@ export default function DehumidifierCalculator() {
                                     </Form.Group>
                                 </div>
 
-                                {/* Step 2: Moisture Level */}
+                                {/!* Step 2: Moisture Level *!/}
                                 <div className="mb-4 pb-3 border-bottom">
                                     <div className="d-flex align-items-center gap-2 mb-3">
                                         <Badge
@@ -448,7 +449,7 @@ export default function DehumidifierCalculator() {
                                     </div>
                                 </div>
 
-                                {/* Step 3: Finish Status */}
+                                {/!* Step 3: Finish Status *!/}
                                 <div className="mb-4 pb-3 border-bottom">
                                     <div className="d-flex align-items-center gap-2 mb-3">
                                         <Badge
@@ -517,7 +518,7 @@ export default function DehumidifierCalculator() {
                                     )}
                                 </div>
 
-                                {/* Step 4: Additional Moisture Sources */}
+                                {/!* Step 4: Additional Moisture Sources *!/}
                                 <div className="mb-4 pb-3 border-bottom">
                                     <div className="d-flex align-items-center gap-2 mb-3">
                                         <Badge
@@ -564,7 +565,7 @@ export default function DehumidifierCalculator() {
                                     </div>
                                 </div>
 
-                                {/* Step 5: Drainage */}
+                                {/!* Step 5: Drainage *!/}
                                 <div className="mb-4">
                                     <div className="d-flex align-items-center gap-2 mb-3">
                                         <Badge
@@ -624,7 +625,7 @@ export default function DehumidifierCalculator() {
                                     </Row>
                                 </div>
 
-                                {/* Calculate Button */}
+                                {/!* Calculate Button *!/}
                                 <Button
                                     variant="primary"
                                     size="lg"
@@ -645,7 +646,7 @@ export default function DehumidifierCalculator() {
                         </Card>
                     </Col>
 
-                    {/* Results Section - Right Column */}
+                    {/!* Results Section - Right Column *!/}
                     <Col lg={4}>
                         <Card className="shadow-sm border-0 sticky-top" style={{ top: '20px' }}>
                             <Card.Body>
@@ -658,7 +659,7 @@ export default function DehumidifierCalculator() {
 
                                 {showResults && results ? (
                                     <div className="space-y-4">
-                                        {/* Primary Result */}
+                                        {/!* Primary Result *!/}
                                         <div className="text-center p-4 bg-primary bg-opacity-10 rounded">
                                             <h2 className="display-5 fw-bold text-primary mb-1">
                                                 {results.minPints} - {results.maxPints}
@@ -666,7 +667,7 @@ export default function DehumidifierCalculator() {
                                             <p className="text-muted small mb-0">Pints per day</p>
                                         </div>
 
-                                        {/* Type Recommendation */}
+                                        {/!* Type Recommendation *!/}
                                         <Card className="bg-light border-0">
                                             <Card.Body>
                                                 <h6 className="fw-semibold mb-2">Recommended Type</h6>
@@ -685,7 +686,7 @@ export default function DehumidifierCalculator() {
                                             </Card.Body>
                                         </Card>
 
-                                        {/* Pump Recommendation */}
+                                        {/!* Pump Recommendation *!/}
                                         <Card className="bg-light border-0">
                                             <Card.Body>
                                                 <h6 className="fw-semibold mb-2">Pump Needed?</h6>
@@ -703,7 +704,7 @@ export default function DehumidifierCalculator() {
                                             </Card.Body>
                                         </Card>
 
-                                        {/* Calculation Breakdown */}
+                                        {/!* Calculation Breakdown *!/}
                                         <div className="border-top pt-3">
                                             <h6 className="fw-semibold mb-2 small">How we calculated this</h6>
                                             <ListGroup variant="flush" className="small">
@@ -724,7 +725,7 @@ export default function DehumidifierCalculator() {
                                             </ListGroup>
                                         </div>
 
-                                        {/* CTA to Pillar Post */}
+                                        {/!* CTA to Pillar Post *!/}
                                         <Button
                                             href="/week-7-best-basement-dehumidifiers"
                                             variant="success"
@@ -733,7 +734,7 @@ export default function DehumidifierCalculator() {
                                             View Top Rated Dehumidifiers
                                         </Button>
 
-                                        {/* Save Results */}
+                                        {/!* Save Results *!/}
                                         <Button variant="outline-secondary" className="w-100 d-flex align-items-center justify-content-center gap-2">
                                             <Mail size={16} />
                                             Email My Results
@@ -760,7 +761,7 @@ export default function DehumidifierCalculator() {
                                     </div>
                                 )}
 
-                                {/* Help Section */}
+                                {/!* Help Section *!/}
                                 <div className="mt-4 pt-3 border-top">
                                     <div className="d-flex gap-3">
                                         <HelpCircle size={20} className="text-muted flex-shrink-0" />
@@ -777,7 +778,7 @@ export default function DehumidifierCalculator() {
                     </Col>
                 </Row>
 
-                {/* Blog Integration Grid */}
+                {/!* Blog Integration Grid *!/}
                 <Row className="mt-5 g-3">
                     <Col md={6} lg={4} xl>
                         <Card className="h-100 border-0 shadow-sm">
@@ -826,7 +827,7 @@ export default function DehumidifierCalculator() {
                     </Col>
                 </Row>
 
-                {/* FAQ Section */}
+                {/!* FAQ Section *!/}
                 <Card className="mt-5 border-0 bg-light">
                     <Card.Body className="p-4">
                         <h5 className="fw-bold mb-4">Frequently Asked Questions</h5>
@@ -853,4 +854,4 @@ export default function DehumidifierCalculator() {
             </Container>
         </div>
     );
-}
+}*/

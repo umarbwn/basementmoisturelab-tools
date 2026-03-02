@@ -10,16 +10,13 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.2.1",
     "bootstrap": "^5.3.8",
     "lucide-react": "^0.575.0",
     "next": "16.1.6",
     "next-sitemap": "^4.2.3",
-    "primereact": "^10.9.7",
     "react": "19.2.3",
-    "react-bootstrap": "^2.10.10",
     "react-dom": "19.2.3",
-    "tailwindcss": "^4.2.1"
+    "styled-components": "^6.3.11"
   },
   "devDependencies": {
     "@types/node": "^20",
