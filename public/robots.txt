@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: http://localhost/out
+Host: https://tools.basementmoisturelab.com
 
 # Sitemaps
-Sitemap: http://localhost/out/sitemap.xml
+Sitemap: https://tools.basementmoisturelab.com/sitemap.xml
