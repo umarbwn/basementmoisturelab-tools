@@ -1,0 +1,10 @@
+Options -Indexes
+RewriteEngine On
+RewriteBase /
+
+# If request is a file, serve it
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# Otherwise send everything to index.html
+RewriteRule ^ index.html [L]
