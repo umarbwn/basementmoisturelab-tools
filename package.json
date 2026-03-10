@@ -11,12 +11,17 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
+    "gray-matter": "^4.0.3",
     "lucide-react": "^0.575.0",
     "next": "16.1.6",
     "next-seo": "^7.2.0",
     "next-sitemap": "^4.2.3",
     "react": "19.2.3",
     "react-dom": "19.2.3",
+    "react-markdown": "^10.1.0",
+    "remark": "^15.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-html": "^16.0.1",
     "styled-components": "^6.3.11"
   },
   "devDependencies": {
