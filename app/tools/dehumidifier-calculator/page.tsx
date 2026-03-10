@@ -1,11 +1,7 @@
-// app/tools/dehumidifier-calculator/page.tsx
 'use client';
 
 import {useEffect, useState} from 'react';
 import {AlertTriangle, ArrowRight, BookOpen, ChevronRight, Droplets, Home, Ruler, Thermometer} from 'lucide-react';
-
-// Import Bootstrap CSS
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Types and Interfaces
 interface CalculatorInputs {
