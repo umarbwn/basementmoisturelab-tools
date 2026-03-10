@@ -7,7 +7,7 @@ export default function Page() {
 
     return (
         <div className={'container min-vh-100'}>
-            <div className="row min-vh-100">
+            <div className="row">
                 <div className="col-12 mt-3 col-sm-6 col-lg-4">
                     <div className="card">
                         <div className="card-body">
