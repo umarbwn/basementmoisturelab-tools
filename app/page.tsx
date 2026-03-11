@@ -54,6 +54,11 @@ const toolCards: toolCardsProps[] = [
         label: 'Basement Crack Severity Checker',
         description: `Enter your crack's length, width, pattern, and moisture status to instantly score its severity — from Low to Critical — and know exactly what action to take.`,
         link: '/tools/basement-crack-severity-checker'
+    },
+    {
+        label: 'Basement Flood Risk Tool',
+        description: `Enter your 24-hour rainfall total, soil type, and land slope to instantly calculate your basement flood risk score — and find out if you're Low, Moderate, or High risk.`,
+        link: '/tools/basement-flood-risk-calculator'
     }
 ];
 
