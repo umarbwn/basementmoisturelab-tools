@@ -34,6 +34,11 @@ const toolCards: toolCardsProps[] = [
         label: 'Basement Moisture Problem Finder',
         description: `Select the symptoms you see in your basement and instantly find out whether poor drainage, hydrostatic pressure, foundation cracks, or condensation is to blame.`,
         link: '/tools/basement-moisture-problem-finder'
+    },
+    {
+        label: 'Sump Pump Size Calculator',
+        description: `Calculate the exact GPM capacity and horsepower your sump pump needs — based on your drainage area, rainfall intensity, and basin dimensions. Imperial & metric supported.`,
+        link: '/tools/sump-pump-size-calculator'
     }
 ];
 
