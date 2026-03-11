@@ -49,6 +49,11 @@ const toolCards: toolCardsProps[] = [
         label: 'Yard Drainage Slope Calculator',
         description: `Enter your yard distance and drop (or two elevation readings) to instantly calculate slope percentage, ratio, angle, and get a drainage quality rating with fix recommendations.`,
         link: '/tools/yard-drainage-slope-calculator'
+    },
+    {
+        label: 'Basement Crack Severity Checker',
+        description: `Enter your crack's length, width, pattern, and moisture status to instantly score its severity — from Low to Critical — and know exactly what action to take.`,
+        link: '/tools/basement-crack-severity-checker'
     }
 ];
 
