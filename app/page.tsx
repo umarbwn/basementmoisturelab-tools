@@ -44,6 +44,11 @@ const toolCards: toolCardsProps[] = [
         label: 'Basement Airflow Calculator',
         description: `Enter your basement dimensions, humidity, and radon risk level to instantly calculate the required CFM, ideal ACH, and recommended fan size for healthy air quality.`,
         link: '/tools/basement-airflow-calculator'
+    },
+    {
+        label: 'Yard Drainage Slope Calculator',
+        description: `Enter your yard distance and drop (or two elevation readings) to instantly calculate slope percentage, ratio, angle, and get a drainage quality rating with fix recommendations.`,
+        link: '/tools/yard-drainage-slope-calculator'
     }
 ];
 
