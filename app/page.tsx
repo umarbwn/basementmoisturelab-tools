@@ -39,6 +39,11 @@ const toolCards: toolCardsProps[] = [
         label: 'Sump Pump Size Calculator',
         description: `Calculate the exact GPM capacity and horsepower your sump pump needs — based on your drainage area, rainfall intensity, and basin dimensions. Imperial & metric supported.`,
         link: '/tools/sump-pump-size-calculator'
+    },
+    {
+        label: 'Basement Airflow Calculator',
+        description: `Enter your basement dimensions, humidity, and radon risk level to instantly calculate the required CFM, ideal ACH, and recommended fan size for healthy air quality.`,
+        link: '/tools/basement-airflow-calculator'
     }
 ];
 
